@@ -5,10 +5,19 @@
 2. Create a new project, using the 'Blank Paper' template.
 
 ## Basic Writing and Document Structure
-1. 
-2. Hit the blue `Recompile` button to update your .pdf preview.
-3. Divide the text into several sections using the `\section{}` and `\subsection{}`
-4. Insert a table of contents by adding `\tableofcontents` after `\maketitle`
+Our template gives us some bare minimal text to start a valid `.tex` file:
+
+```tex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\begin{document}
+(Type your content here.)
+\end{document}
+```
+
+1. Write some prose, gibberish or grab some text to insert into your document.
+2. Divide the text into several sections using the `\section{}` and `\subsection{}`
+3. Insert a table of contents by adding `\tableofcontents` after `\maketitle`
 
 ### Challenge
 If you're writing a large document (book, thesis etc.) it is good practice to create a separate file for each chapter, then insert it into your `main.tex` file with the `\input{}` command.
