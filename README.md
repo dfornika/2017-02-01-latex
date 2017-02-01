@@ -58,6 +58,8 @@ We use the command `\ref{eqn:sum}` to generate a numbered reference to that equa
 1. Use the equation-building notation above to build a big, complex equation (don't worry about mathematical validity). Look up one additional mathematical symbol or operator to use (factorials? trigonometric functions? set operations?)
 2. Refer to your big complex equation somewhere in your text body.
 
+Much more detailed instructions for mathematical typesetting can be found on the [LaTeX WikiBook](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+
 ## Sharing and Collaborative Editing
 1. Find a buddy (or two) to work with for a brief collaborative editing exercise
 2. Click on the 'Share' button at the top of the site.
