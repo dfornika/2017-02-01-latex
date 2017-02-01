@@ -97,9 +97,9 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
 
 ```
     \usepackage[
-    backend=biber,
-    style=numeric,
-    sorting=ynt
+      backend=biber,
+      style=numeric,
+      sorting=ynt
     ]{biblatex}
     
     \addbibresource{references.bib}
