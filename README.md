@@ -1,5 +1,14 @@
 # LaTeX
 
+## Agenda
+1. Preliminaries
+2. Basic Writing and Document Structure
+3. Mathematical Equations
+4. Sharing and Collaborative Editing
+5. Bibliographies and References
+6. Figures and Images
+7. Show and Tell(?)
+
 ## Preliminaries
 1. Log in to [Overleaf](https://www.overleaf.com/) (create a free account if you haven't already).
 2. Create a new project, using the 'Blank Paper' template.
@@ -103,7 +112,7 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
 2. Change the reference style.
 
 ## Figures & Images
-Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your ShareLaTeX project before you can insert it into the document.
+Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your Overleaf project before you can insert it into the document. Use these images or find some of your own on the web:
 
 <img src="images/urchin-01.jpg" width="100">
 
@@ -113,15 +122,18 @@ Let's insert a figure into our document. Use this one, or find another picture f
 
 <img src="images/urchin-04.jpg" width="100">
 
+### Adding a Single Figure
 
 ```tex
 \begin{figure}[h]
-  \label{fig:geometry}
+  \label{fig:urchin-01}
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/geometry}
+  \includegraphics[width=0.5\textwidth]{images/urchin-01}
   \caption{Ultimate proof of the secrets of the universe.}
 \end{figure}
 ```
+
+### Adding Multiple Figures
 
 ## Tables
 Tables can be a real pain in LaTeX! For large or complex tables, find a tool to help generate your table:
