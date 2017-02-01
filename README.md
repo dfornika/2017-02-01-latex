@@ -104,7 +104,7 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
 
 ## Figures & Images
 Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your ShareLaTeX project before you can insert it into the document.
-![Geometry](http://latex.artofproblemsolving.com/4/7/7/4776110780647e87b624afb7a2d6e65612ad4595.png)
+![urchin-01](images/urchin-01.jpg)
 
 ```tex
 \begin{figure}[h]
