@@ -135,6 +135,25 @@ Let's insert a figure into our document. Use this one, or find another picture f
 
 ### Adding Multiple Figures
 
+```tex
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.25\textwidth}
+        \includegraphics[width=\textwidth]{images/urchin-01}
+        \caption{An urchin}
+        \label{fig:urchin-01}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.25\textwidth}
+        \includegraphics[width=\textwidth]{images/urchin-02}
+        \caption{Another urchin}
+        \label{fig:urchin-02}
+    \end{subfigure}
+    \caption{Urchins.}
+\end{figure}
+```
+
 ## Tables
 Tables can be a real pain in LaTeX! For large or complex tables, find a tool to help generate your table:
 - http://www.tablesgenerator.com/
