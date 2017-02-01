@@ -98,7 +98,7 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
 ```
     \usepackage[
       backend=biber,
-      style=numeric,
+      style=ieee,
       sorting=ynt
     ]{biblatex}
     
