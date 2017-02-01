@@ -157,7 +157,9 @@ Let's insert a figure into our document. Use this one, or find another picture f
 
 ## Tables
 Tables can be a real pain in LaTeX! For large or complex tables, find a tool to help generate your table:
+
 - http://www.tablesgenerator.com/
+- https://github.com/krlmlr/Excel2LaTeX
 
 ```tex
 \begin{table}[]
