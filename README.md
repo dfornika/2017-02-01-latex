@@ -7,7 +7,8 @@
 4. Sharing and Collaborative Editing
 5. Bibliographies and References
 6. Figures and Images
-7. Show and Tell(?)
+7. Tables
+8. Show and Tell(?)
 
 ## Preliminaries
 1. Log in to [Overleaf](https://www.overleaf.com/) (create a free account if you haven't already).
