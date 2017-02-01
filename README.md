@@ -58,6 +58,11 @@ We use the command `\ref{eqn:sum}` to generate a numbered reference to that equa
 1. Use the equation-building notation above to build a big, complex equation (don't worry about mathematical validity). Look up one additional mathematical symbol or operator to use (factorials? trigonometric functions? set operations?)
 2. Refer to your big complex equation somewhere in your text body.
 
+## Sharing and Collaborative Editing
+1. Find a buddy (or two) to work with for a brief collaborative editing exercise
+2. Click on the 'Share' button at the top of the site.
+3. Choose a collaborative editing method that works well for you (link sharing or git repository)
+
 ## Bibliography & References
 LaTeX uses a system called BibTeX to insert references. You can get BibTeX references from Google Scholar.
 
